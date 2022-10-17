@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Adress" Category="Table" Bounds="79.2532530174994,405.229724186934,307.24,197.88" Group="Expanded" Label="Adress" />
+    <Node Id="Adress_AdressId" Category="Field Primary" Bounds="99.2532530174994,501.189724186934,65.7033333333333,25.96" Description="bigint" Label="AdressId" />
+    <Node Id="Adress_City" Category="Field" Bounds="99.2532530174994,445.229724186934,50,25.96" Description="text" Label="City" />
+    <Node Id="Adress_PhoneNumber" Category="Field" Bounds="99.2532530174994,557.149724186934,97.2133333333334,25.96" Description="text" Label="PhoneNumber" />
+    <Node Id="Adress_Street" Category="Field" Bounds="179.253253017499,445.229724186934,50.8466666666667,25.96" Description="text" Label="Street" />
+    <Node Id="Adress_StreetNumber" Category="Field" Bounds="194.956586350833,501.189724186934,94.4533333333333,25.96" Description="bigint" Label="StreetNumber" />
+    <Node Id="Adress_StreetNumberAddition" Category="Field" Bounds="226.466586350833,557.149724186934,140.026666666667,25.96" Description="text" Label="StreetNumberAddition" />
+    <Node Id="Adress_Zipcode" Category="Field" Bounds="260.099919684166,445.229724186934,62.72,25.96" Description="text" Label="Zipcode" />
+    <Node Id="Clubs" Category="Table" Bounds="144.804919684166,233.309724186934,176.136666666667,141.92" Group="Expanded" Label="Clubs" />
+    <Node Id="Clubs_AdressId" Category="Field Foreign" Bounds="164.804919684166,329.269724186934,65.7033333333333,25.96" Description="bigint" Label="AdressId" />
+    <Node Id="Clubs_ClubId" Category="Field Primary" Bounds="246.501586350833,273.309724186934,54.44,25.96" Description="bigint" Label="ClubId" />
+    <Node Id="Clubs_Name" Category="Field" Bounds="164.804919684166,273.309724186934,51.6966666666667,25.96" Description="text" Label="Name" />
+    <Node Id="Coach" Category="Table" Bounds="-34.2684136491672,-394.370302468561,292.283333333333,197.88" Group="Expanded" Label="Coach" />
+    <Node Id="Coach_BirthDate" Category="Field Optional" Bounds="168.334919684166,-354.370302468561,69.68,25.96" Description="text" Label="BirthDate" />
+    <Node Id="Coach_CoachID" Category="Field Primary" Bounds="73.8282530174995,-354.370302468561,64.5066666666667,25.96" Description="bigint" Label="CoachID" />
+    <Node Id="Coach_FirstName" Category="Field" Bounds="-14.2684136491672,-242.450302468561,73.7966666666667,25.96" Description="text" Label="FirstName" />
+    <Node Id="Coach_LastName" Category="Field" Bounds="87.9749196841662,-298.410302468561,72.6133333333333,25.96" Description="text" Label="LastName" />
+    <Node Id="Coach_TeamId" Category="Field Foreign" Bounds="-14.2684136491672,-354.370302468561,58.0966666666667,25.96" Description="bigint" Label="TeamId" />
+    <Node Id="Coach_TrainingId" Category="Field Foreign" Bounds="-14.2684136491672,-298.410302468561,72.2433333333333,25.96" Description="bigint" Label="TrainingId" />
+    <Node Id="Database" Category="Database" Bounds="-167.371746982501,-434.370302468561,766.931666666667,1057.48" Group="Expanded" Label="Sport.db" UseManualLocation="True" />
+    <Node Id="Games" Category="Table" Bounds="-147.371746982501,-166.490302468561,304.49,197.88" Group="Expanded" Label="Games" />
+    <Node Id="Games_Date" Category="Field" Bounds="-127.371746982501,-126.490302468561,50,25.96" Description="text" Label="Date" />
+    <Node Id="Games_Duration" Category="Field" Bounds="-36.1584136491672,-70.530302468561,66.2766666666667,25.96" Description="text" Label="Duration" />
+    <Node Id="Games_GameId" Category="Field Primary" Bounds="-127.371746982501,-70.530302468561,61.2133333333333,25.96" Description="bigint" Label="GameId" />
+    <Node Id="Games_GuestTeamTeamId" Category="Field Foreign" Bounds="-127.371746982501,-14.570302468561,116.393333333333,25.96" Description="bigint" Label="GuestTeamTeamId" />
+    <Node Id="Games_HomeTeamTeamId" Category="Field Foreign" Bounds="19.0215863508328,-14.570302468561,118.096666666667,25.96" Description="bigint" Label="HomeTeamTeamId" />
+    <Node Id="Games_Innings" Category="Field" Bounds="-47.3717469825005,-126.490302468561,58.63,25.96" Description="bigint" Label="Innings" />
+    <Node Id="Games_ScoreId" Category="Field Foreign" Bounds="41.2582530174995,-126.490302468561,59.6566666666667,25.96" Description="bigint" Label="ScoreId" />
+    <Node Id="Games_StartTime" Category="Field Optional" Bounds="60.1182530174995,-70.530302468561,70.2066666666667,25.96" Description="text" Label="StartTime" />
+    <Node Id="Player" Category="Table" Bounds="288.186586350833,-394.370302468561,291.373333333333,197.88" Group="Expanded" Label="Player" />
+    <Node Id="Player_BirthDate" Category="Field Optional" Bounds="489.879919684166,-354.370302468561,69.6799999999999,25.96" Description="text" Label="BirthDate" />
+    <Node Id="Player_FirstName" Category="Field" Bounds="308.186586350833,-242.450302468561,73.7966666666667,25.96" Description="text" Label="FirstName" />
+    <Node Id="Player_LastName" Category="Field" Bounds="410.429919684166,-298.410302468561,72.6133333333333,25.96" Description="text" Label="LastName" />
+    <Node Id="Player_PlayerID" Category="Field Primary" Bounds="396.283253017499,-354.370302468561,63.5966666666667,25.96" Description="bigint" Label="PlayerID" />
+    <Node Id="Player_PlayerNumber" Category="Field Optional" Bounds="411.983253017499,-242.450302468561,95.5966666666667,25.96" Description="bigint" Label="PlayerNumber" />
+    <Node Id="Player_TeamId" Category="Field Foreign" Bounds="308.186586350833,-354.370302468561,58.0966666666667,25.96" Description="bigint" Label="TeamId" />
+    <Node Id="Player_TrainingId" Category="Field Foreign" Bounds="308.186586350833,-298.410302468561,72.2433333333333,25.96" Description="bigint" Label="TrainingId" />
+    <Node Id="Score" Category="Table" Bounds="-101.266746982501,61.3897241869337,212.28,141.92" Group="Expanded" Label="Score" />
+    <Node Id="Score_GuestPoints" Category="Field" Bounds="8.38991968416599,101.389724186934,82.6233333333333,25.96" Description="bigint" Label="GuestPoints" />
+    <Node Id="Score_HomePoints" Category="Field" Bounds="-81.2667469825007,157.349724186934,84.3266666666667,25.96" Description="bigint" Label="HomePoints" />
+    <Node Id="Score_ScoreId" Category="Field Primary" Bounds="-81.2667469825007,101.389724186934,59.6566666666667,25.96" Description="bigint" Label="ScoreId" />
+    <Node Id="Team" Category="Table" Bounds="141.604919684166,61.3897241869337,182.536666666667,141.92" Group="Expanded" Label="Team" />
+    <Node Id="Team_ClubId" Category="Field Foreign" Bounds="161.604919684166,101.389724186934,54.44,25.96" Description="bigint" Label="ClubId" />
+    <Node Id="Team_TeamId" Category="Field Primary" Bounds="246.044919684166,101.389724186934,58.0966666666667,25.96" Description="bigint" Label="TeamId" />
+    <Node Id="Team_TeamName" Category="Field" Bounds="161.604919684166,157.349724186934,79.5333333333333,25.96" Description="text" Label="TeamName" />
+    <Node Id="Training" Category="Table" Bounds="218.968253017499,-138.510302468561,183.81,141.92" Group="Expanded" Label="Training" />
+    <Node Id="Training_Datum" Category="Field" Bounds="238.968253017499,-98.5103024685611,55.7133333333333,25.96" Description="text" Label="Datum" />
+    <Node Id="Training_TeamId" Category="Field Foreign" Bounds="324.681586350833,-98.5103024685611,58.0966666666667,25.96" Description="bigint" Label="TeamId" />
+    <Node Id="Training_TrainingId" Category="Field Primary" Bounds="238.968253017499,-42.550302468561,72.2433333333333,25.96" Description="bigint" Label="TrainingId" />
+  </Nodes>
+  <Links>
+    <Link Source="Adress" Target="Adress_AdressId" Category="Contains" />
+    <Link Source="Adress" Target="Adress_City" Category="Contains" />
+    <Link Source="Adress" Target="Adress_PhoneNumber" Category="Contains" />
+    <Link Source="Adress" Target="Adress_Street" Category="Contains" />
+    <Link Source="Adress" Target="Adress_StreetNumber" Category="Contains" />
+    <Link Source="Adress" Target="Adress_StreetNumberAddition" Category="Contains" />
+    <Link Source="Adress" Target="Adress_Zipcode" Category="Contains" />
+    <Link Source="Clubs" Target="Clubs_AdressId" Category="Contains" />
+    <Link Source="Clubs" Target="Clubs_ClubId" Category="Contains" />
+    <Link Source="Clubs" Target="Clubs_Name" Category="Contains" />
+    <Link Source="Clubs_AdressId" Target="Adress_AdressId" Category="Foreign Key" Label="FK_Clubs_0_0" />
+    <Link Source="Coach" Target="Coach_BirthDate" Category="Contains" />
+    <Link Source="Coach" Target="Coach_CoachID" Category="Contains" />
+    <Link Source="Coach" Target="Coach_FirstName" Category="Contains" />
+    <Link Source="Coach" Target="Coach_LastName" Category="Contains" />
+    <Link Source="Coach" Target="Coach_TeamId" Category="Contains" />
+    <Link Source="Coach" Target="Coach_TrainingId" Category="Contains" />
+    <Link Source="Coach_TeamId" Target="Team_TeamId" Category="Foreign Key" Label="FK_Coach_1_0" />
+    <Link Source="Coach_TrainingId" Target="Training_TrainingId" Category="Foreign Key" Label="FK_Coach_0_0" />
+    <Link Source="Database" Target="Adress" Category="Contains" />
+    <Link Source="Database" Target="Clubs" Category="Contains" />
+    <Link Source="Database" Target="Coach" Category="Contains" />
+    <Link Source="Database" Target="Games" Category="Contains" />
+    <Link Source="Database" Target="Player" Category="Contains" />
+    <Link Source="Database" Target="Score" Category="Contains" />
+    <Link Source="Database" Target="Team" Category="Contains" />
+    <Link Source="Database" Target="Training" Category="Contains" />
+    <Link Source="Games" Target="Games_Date" Category="Contains" />
+    <Link Source="Games" Target="Games_Duration" Category="Contains" />
+    <Link Source="Games" Target="Games_GameId" Category="Contains" />
+    <Link Source="Games" Target="Games_GuestTeamTeamId" Category="Contains" />
+    <Link Source="Games" Target="Games_HomeTeamTeamId" Category="Contains" />
+    <Link Source="Games" Target="Games_Innings" Category="Contains" />
+    <Link Source="Games" Target="Games_ScoreId" Category="Contains" />
+    <Link Source="Games" Target="Games_StartTime" Category="Contains" />
+    <Link Source="Games_GuestTeamTeamId" Target="Team_TeamId" Category="Foreign Key" Bounds="-30.6394410023724,11.3894586696656,268.155203002762,90.3229996176544" Label="FK_Games_1_0" />
+    <Link Source="Games_HomeTeamTeamId" Target="Team_TeamId" Category="Foreign Key" Bounds="100.123710551411,11.389484876558,145.159447731045,85.4351817740062" Label="FK_Games_0_0" />
+    <Link Source="Games_ScoreId" Target="Score_ScoreId" Category="Foreign Key" Bounds="-40.1973811078404,-100.530715123442,104.304982056686,193.993623587506" Label="FK_Games_2_0" />
+    <Link Source="Player" Target="Player_BirthDate" Category="Contains" />
+    <Link Source="Player" Target="Player_FirstName" Category="Contains" />
+    <Link Source="Player" Target="Player_LastName" Category="Contains" />
+    <Link Source="Player" Target="Player_PlayerID" Category="Contains" />
+    <Link Source="Player" Target="Player_PlayerNumber" Category="Contains" />
+    <Link Source="Player" Target="Player_TeamId" Category="Contains" />
+    <Link Source="Player" Target="Player_TrainingId" Category="Contains" />
+    <Link Source="Player_TeamId" Target="Team_TeamId" Category="Foreign Key" Label="FK_Player_1_0" />
+    <Link Source="Player_TrainingId" Target="Training_TrainingId" Category="Foreign Key" Label="FK_Player_0_0" />
+    <Link Source="Score" Target="Score_GuestPoints" Category="Contains" />
+    <Link Source="Score" Target="Score_HomePoints" Category="Contains" />
+    <Link Source="Score" Target="Score_ScoreId" Category="Contains" />
+    <Link Source="Team" Target="Team_ClubId" Category="Contains" />
+    <Link Source="Team" Target="Team_TeamId" Category="Contains" />
+    <Link Source="Team" Target="Team_TeamName" Category="Contains" />
+    <Link Source="Team_ClubId" Target="Clubs_ClubId" Category="Foreign Key" Label="FK_Team_0_0" />
+    <Link Source="Training" Target="Training_Datum" Category="Contains" />
+    <Link Source="Training" Target="Training_TeamId" Category="Contains" />
+    <Link Source="Training" Target="Training_TrainingId" Category="Contains" />
+    <Link Source="Training_TeamId" Target="Team_TeamId" Category="Foreign Key" Bounds="283.493990486057,-72.5502758130664,65.1298564950906,165.56472782038" Label="FK_Training_0_0" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Database" />
+    <Category Id="Field" />
+    <Category Id="Field Foreign" />
+    <Category Id="Field Optional" />
+    <Category Id="Field Primary" />
+    <Category Id="Foreign Key" />
+    <Category Id="Table" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>
