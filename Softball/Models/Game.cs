@@ -21,7 +21,7 @@ namespace Sport.Models
         public IEnumerable<Coach> Coaches { get; set; }
 
         //parameterless constructor for EF migration
-        private Game() : this(DateTime.Now, new Team(), new Team()) { }
+        private Game() : this(DateTime.Now, new Team(""), new Team("")) { }
 
         public Game(DateTime date, Team homeTeam, Team guestTeam)
         {
