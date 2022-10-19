@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sport.Interfaces
+namespace Sport.Models.Interfaces
 {
     interface IActive
     {
+        bool IsActive { get; }
+
         void Activate();
         void Inactivate();
-        bool IsActive();
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sport.Interfaces
+namespace Sport.Models.Interfaces
 {
-    public class Active
+    public class Active : IActive
     {
 
         public DateTime? InactiveDate { get; private set; }
@@ -22,22 +22,22 @@ namespace Sport.Interfaces
 
         public Active() : this(null) { }
 
-        public Active(DateTime? inactiveDate)
+        public  Active(DateTime? inactiveDate)
         {
             InactiveDate = inactiveDate;
         }
 
-        public void SetInactiveDate(DateTime? inactiveDate)
+        public virtual void SetInactiveDate(DateTime? inactiveDate)
         {
             InactiveDate = inactiveDate;
         }
 
-        public void Inactivate()
+        public virtual void Inactivate()
         {
             SetInactiveDate(DateTime.Now);
         }
 
-        public void Activate()
+        public virtual void Activate()
         {
             SetInactiveDate(null);
         }
